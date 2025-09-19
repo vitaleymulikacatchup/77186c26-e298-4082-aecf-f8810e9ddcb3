@@ -6,7 +6,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogoEmphasisBackgroundGradient';
-import { DollarSign, Fire } from 'lucide-react';
+import { DollarSign } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -45,7 +45,7 @@ export default function Home() {
           description="Transparent and fair token distribution ensures stability for our investors." 
           kpiItems={[
             { value: "100M", description: "Total Supply", icon: DollarSign },
-            { value: "10M", description: "Initial Burn", icon: Fire }
+            { value: "10M", description: "Initial Burn", icon: DollarSign }
           ]} 
         />
       </div>
