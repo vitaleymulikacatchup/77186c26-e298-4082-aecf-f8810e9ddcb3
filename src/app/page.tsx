@@ -43,8 +43,8 @@ export default function Home() {
           title="Tokenomics Overview" 
           description="Transparent and fair token distribution ensures stability for our investors." 
           kpiItems={[
-            { value: "100M", description: "Total Supply", icon: "DollarSign" },
-            { value: "10M", description: "Initial Burn", icon: "Fire" },
+            { value: "100M", description: "Total Supply", icon: DollarSign },
+            { value: "10M", description: "Initial Burn", icon: Fire },
           ]} 
         />
       </div>
