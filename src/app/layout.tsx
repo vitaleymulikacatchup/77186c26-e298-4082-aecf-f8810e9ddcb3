@@ -1,0 +1,28 @@
+import type { Metadata } from "next";
+import { Inter_Tight, Poppins } from "next/font/google";
+import "./globals.css";
+
+const interTight = Inter_Tight({
+  variable: "--font-inter-tight",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
+export const metadata: Metadata = {
+  title: "BlueCrypto Store",
+  description: "A clean, blue-themed single-page ecommerce landing for crypto-related products with a simple buying flow and clear tokenomics.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${interTight.variable} antialiased`}>
+        {children}
+      </body>
+    </html>
+  );
+}
