@@ -13,7 +13,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal 
           logoSrc="/images/logo.svg" 
-          logoAlt="BlueCrypto Store Logo" 
           buttonText="Get Started" 
           onButtonClick={() => console.log('Get Started Clicked')} 
         />
@@ -52,7 +51,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogoEmphasisBackgroundGradient 
           logoSrc="/images/logo.svg" 
-          logoAlt="BlueCrypto Store Logo" 
           logoText="© 2023 BlueCrypto Store" 
           items={[
             { label: "Privacy Policy", onClick: () => console.log('Privacy Policy Clicked') },
